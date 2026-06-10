@@ -6,7 +6,7 @@ function getNumbers() {
 }
 
 
-// added new code 
+// added new js code
 
 function add() {
     const { num1, num2 } = getNumbers();
