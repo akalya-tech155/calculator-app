@@ -6,6 +6,15 @@ function getNumbers() {
 }
 
 
+// added new code 
+
+function add() {
+    const { num1, num2 } = getNumbers();
+    document.getElementById("result").innerText =
+        "Result: " + (num1 + num2);
+}
+
+
 
 
 
