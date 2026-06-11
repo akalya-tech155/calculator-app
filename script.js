@@ -7,7 +7,7 @@ function getNumbers() {
 
 
 
-//added new code 
+//added multiplication code 
 
 function multiply() {
     const { num1, num2 } = getNumbers();
