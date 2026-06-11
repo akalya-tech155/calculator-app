@@ -4,15 +4,12 @@ function getNumbers() {
 
     return { num1, num2 };
 }
-//added multiplication code 
 
-
- multiplication
+// added new js code
 
 function add() {
     const { num1, num2 } = getNumbers();
     document.getElementById("result").innerText =
-
         "Result: " + (num1 + num2);
 }
 
@@ -24,7 +21,17 @@ function subtract() {
         "Result: " + (num1 - num2);
 }
 
+//added multiplication code 
 
+
+ multiplication
+
+function add() {
+    const { num1, num2 } = getNumbers();
+    document.getElementById("result").innerText =
+
+        "Result: " + (num1 + num2);
+}
 
 
 
