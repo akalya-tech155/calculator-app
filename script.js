@@ -10,8 +10,6 @@ function getNumbers() {
 
 //added multiplication code 
 
-
-
 function multiply() {
     const { num1, num2 } = getNumbers();
     document.getElementById("result").innerText =
