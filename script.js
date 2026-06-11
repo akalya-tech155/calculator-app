@@ -25,13 +25,12 @@ function subtract() {
 //added multiplication code 
 
 
- multiplication
+ 
 
-function add() {
+function multiply() {
     const { num1, num2 } = getNumbers();
     document.getElementById("result").innerText =
-
-        "Result: " + (num1 + num2);
+        "Result: " + (num1 * num2);
 }
 
 
