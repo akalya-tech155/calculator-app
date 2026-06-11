@@ -7,7 +7,7 @@ function getNumbers() {
 
 
 
-//added new code
+//add division code
 
 function divide() {
     const { num1, num2 } = getNumbers();
