@@ -6,6 +6,7 @@ function getNumbers() {
 }
 
 
+<<<<<<< HEAD
 // added new js code
 
 function add() {
@@ -25,4 +26,14 @@ function subtract() {
 }
 
 
+
+
+
+//added new code 
+
+function multiply() {
+    const { num1, num2 } = getNumbers();
+    document.getElementById("result").innerText =
+        "Result: " + (num1 * num2);
+}
 
