@@ -7,7 +7,7 @@ function getNumbers() {
 
 
 
-// Added new code for javascript
+// add subtraction code
 
 function subtract() {
     const { num1, num2 } = getNumbers();
