@@ -7,5 +7,13 @@ function getNumbers() {
 
 
 
+// Added new code for javascript
+
+function subtract() {
+    const { num1, num2 } = getNumbers();
+    document.getElementById("result").innerText =
+        "Result: " + (num1 - num2);
+}
+
 
 
