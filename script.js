@@ -6,7 +6,7 @@ function getNumbers() {
 }
 
 
-// added new js code
+// add addition code
 
 function add() {
     const { num1, num2 } = getNumbers();
@@ -14,7 +14,7 @@ function add() {
         "Result: " + (num1 + num2);
 }
 
-// Added new code for javascript
+// add subraction code
 
 function subtract() {
     const { num1, num2 } = getNumbers();
@@ -22,10 +22,7 @@ function subtract() {
         "Result: " + (num1 - num2);
 }
 
-//added multiplication code 
-
-
- 
+//add multiplication code 
 
 function multiply() {
     const { num1, num2 } = getNumbers();
@@ -34,7 +31,7 @@ function multiply() {
 }
 
 
-//added new code
+//add division code
 
 function divide() {
     const { num1, num2 } = getNumbers();
@@ -43,7 +40,7 @@ function divide() {
 }
 
 
-// added divided code
+// add divided-by-0 code
 
 function divide() {
     const { num1, num2 } = getNumbers();
